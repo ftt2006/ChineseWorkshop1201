@@ -1,7 +1,0 @@
-{
-"parent": "minecraft:block/pane_side",
-"textures": {
-    "pane": "chineseworkshop:blocks/red_stained_wooden_planks_paper_window",
-    "edge": "chineseworkshop:blocks/red_stained_wooden_planks_paper_window"
-}
-}
