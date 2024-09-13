@@ -1,0 +1,134 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "all": "chinaworkshop_2:block/red_pillar"
+  },
+  "elements": [
+    {
+      "from": [0,-0.009,0],
+      "to": [16,15.999,16],
+      "faces": {
+        "up": {
+          "uv": [15,15,16,16],
+          "texture": "#all"
+        },
+        "down": {
+          "uv": [15,15,16,16],
+          "texture": "#all"
+        },
+        "west": {
+          "texture": "#all"
+        },
+        "east": {
+          "texture": "#all"
+        },
+        "north": {
+          "texture": "#all"
+        },
+        "south": {
+          "texture": "#all"
+        }
+      }
+    },
+    {
+      "from": [1,-0.009,-1],
+      "to": [15,15.999,0],
+      "faces": {
+        "up": {
+          "uv": [15,0,16,1],
+          "texture": "#all"
+        },
+        "down": {
+          "uv": [15,6,16,7],
+          "texture": "#all"
+        },
+        "west": {
+          "uv": [7,0,8,16],
+          "texture": "#all"
+        },
+        "east": {
+          "uv": [8,0,9,16],
+          "texture": "#all"
+        },
+        "north": {
+          "texture": "#all"
+        }
+      }
+    },
+    {
+      "from": [-1,-0.009,1],
+      "to": [0,15.999,15],
+      "faces": {
+        "up": {
+          "uv": [6,0,7,14],
+          "texture": "#all"
+        },
+        "down": {
+          "uv": [8,1,9,15],
+          "texture": "#all"
+        },
+        "west": {
+          "texture": "#all"
+        },
+        "north": {
+          "uv": [8,0,9,16],
+          "texture": "#all"
+        },
+        "south": {
+          "uv": [8,0,9,16],
+          "texture": "#all"
+        }
+      }
+    },
+    {
+      "from": [16,-0.009,1],
+      "to": [17,15.999,15],
+      "faces": {
+        "up": {
+          "uv": [14,1,15,15],
+          "texture": "#all"
+        },
+        "down": {
+          "uv": [15,1,16,15],
+          "texture": "#all"
+        },
+        "east": {
+          "texture": "#all"
+        },
+        "north": {
+          "uv": [15,0,16,16],
+          "texture": "#all"
+        },
+        "south": {
+          "uv": [14,0,15,16],
+          "texture": "#all"
+        }
+      }
+    },
+    {
+      "from": [1,-0.009,16],
+      "to": [15,15.999,17],
+      "faces": {
+        "up": {
+          "uv": [14,15,15,16],
+          "texture": "#all"
+        },
+        "down": {
+          "uv": [14,15,15,16],
+          "texture": "#all"
+        },
+        "west": {
+          "uv": [15,0,16,16],
+          "texture": "#all"
+        },
+        "east": {
+          "uv": [14,0,15,16],
+          "texture": "#all"
+        },
+        "south": {
+          "texture": "#all"
+        }
+      }
+    }
+  ]
+}

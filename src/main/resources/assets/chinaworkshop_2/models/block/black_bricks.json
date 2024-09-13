@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "chinaworkshop_2:block/black_brick"
+  }
+}
