@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "chinaworkshop_2:block/red_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "chinaworkshop_2:block/red_pillar"
+    },
+    "axis=z": {
+      "model": "chinaworkshop_2:block/red_pillar",
+      "x": 90
+    }
+  }
+}
