@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "twinkrailing",
+  "ingredients": [
+    {
+      "tag": "minecraft:dirt"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "chinaworkshop_2:rammed_earth"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:oak_log"
+    },
+    "Y": {
+      "item": "minecraft:clay_ball"
+    },
+    "B": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "pattern": [
+    "#B",
+    "Y "
+  ],
+  "result": {
+    "count": 1,
+    "item": "chinaworkshop_2:green_pillar"
+  },
+  "show_notification": true
+}

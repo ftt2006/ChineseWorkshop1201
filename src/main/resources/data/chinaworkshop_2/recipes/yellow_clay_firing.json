@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "chinaworkshop_2:yellowclay"
+  },
+  "result": "chinaworkshop_2:yellowbrick"
+}

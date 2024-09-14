@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "chinaworkshop_2:red_pillar"
+    },
+    "G": {
+      "item": "minecraft:green_dye"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    }
+  },
+  "pattern": [
+    "#G",
+    "YB"
+  ],
+  "result": {
+    "count": 2,
+    "item": "chinaworkshop_2:archipaint_block_a"
+  },
+  "show_notification": true
+}

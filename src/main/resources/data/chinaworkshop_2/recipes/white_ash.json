@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:sand"
+    },
+    "E": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "pattern": [
+    "E#",
+    "##"
+  ],
+  "result": {
+    "count": 2,
+    "item": "chinaworkshop_2:white_ash_block"
+  },
+  "show_notification": true
+}
