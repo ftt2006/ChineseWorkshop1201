@@ -32,11 +32,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.PAINTEDBLOCK_A.get());
                         output.accept(ModBlocks.PAINTEDBLOCK_B.get());
                         output.accept(ModBlocks.BLACKBRICKS.get());
+                        output.accept(ModBlocks.ASH_BLOCK.get());
                         output.accept(ModBlocks.BLACKCLAY_BLOCK.get());
                         output.accept(ModBlocks.RAMMED_EARTH.get());
                         output.accept(ModBlocks.ANDESITEPAVEMENT.get());
                         output.accept(ModBlocks.REDPILLAR.get());
                         output.accept(ModBlocks.GREENPILLAR.get());
+                    })
+                    .build());
+    public static final RegistryObject<CreativeModeTab> CHINESE_DECORATIONS_TAB = CREATIVE_MODE_TABS.register("zh_deco_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.MENDUN.get()))
+                    .title(Component.translatable("creativetab.zh_deco_tab"))
+                    .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.MENDUN.get());
                         output.accept(ModBlocks.DOUGONG.get());
                     })
