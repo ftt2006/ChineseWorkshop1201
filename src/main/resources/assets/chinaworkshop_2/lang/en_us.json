@@ -1,17 +1,21 @@
 {
   "creativetab.zhwi_tab": "Chinese Workshop Ingredients",
   "creativetab.zhwbb_tab": "Chinese Workshop Building Blocks",
+  "creativetab.zh_deco_tab": "Chinese Workshop Decorations",
   "item.chinaworkshop_2.blackclay": "Black Clay",
   "item.chinaworkshop_2.yellowclay": "Yellow Clay",
   "item.chinaworkshop_2.blackbrick": "Black Brick",
   "item.chinaworkshop_2.yellowbrick": "Yellow Brick",
   "block.chinaworkshop_2.red_stained_wooden_planks": "Red Stained Wooden Planks",
+  "block.chinaworkshop_2.white_ash_block": "White Ash Block",
+  "block.chinaworkshop_2.black_clay_block": "Black Clay Block",
+  "block.chinaworkshop_2.rammed_earth": "Rammed Earth",
   "block.chinaworkshop_2.black_bricks": "Black Bricks",
   "block.chinaworkshop_2.andesite_pavement": "Andesite Pavement",
   "block.chinaworkshop_2.red_pillar": "Red Pillar",
   "block.chinaworkshop_2.green_pillar": "Dark Green Pillar",
   "block.chinaworkshop_2.archipaint_block_a": "Painted Block",
-  "block.chinaworkshop_2.archipaint_block_b": "Dark Green Pillar",
+  "block.chinaworkshop_2.archipaint_block_b": "Painted Block Variant",
   "block.chinaworkshop_2.dougong": "Dougong",
   "block.chinaworkshop_2.men_dun": "Men Dun"
 }
