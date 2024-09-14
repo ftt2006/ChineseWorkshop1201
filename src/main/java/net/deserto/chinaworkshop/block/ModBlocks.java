@@ -19,7 +19,7 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, ChineseWorkshopRV.MODID);
-
+    
     public static final RegistryObject<Block> REDSTAINED_PLANKS = registerBlock("red_stained_wooden_planks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS))); //okay isso aqui é pra criar blocos
     public static final RegistryObject<Block> BLACKBRICKS = registerBlock("black_bricks",
@@ -41,7 +41,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> PAINTEDBLOCK_B = registerBlock("archipaint_block_b",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> BLACKCLAY_BLOCK = registerBlock("black_clay_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANDESITE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CLAY)));
+    public static final RegistryObject<Block> ASH_BLOCK = registerBlock("white_ash_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COARSE_DIRT)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
